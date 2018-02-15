@@ -1,17 +1,21 @@
-section
-{
+section{
   width: 380px;
 }
-
 label,
-input
-{
-  display:block;
+input{
+  display: block;
+  width: 100%;
+}
+input{
+  border-radius: 5px;
+  border: 1px solid grey;
+  padding: 5px;
+  margin-top: 5px;
 }
 
-input
-{
-  border-radius: 5px;
-  border: 1px;
 
+
+button,
+input{
+  width: 100%
 }
