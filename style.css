@@ -1,21 +1,40 @@
-section{
+
+section
+{
+  display: flex;
+  justify-content: center;
+
+}
+form
+{
   width: 380px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
 }
-label,
-input{
-  display: block;
-  width: 100%;
+
+.two-colums
+{
+  display:flex;
+
 }
-input{
+
+.two-colums > *
+{
+  width: 41.5%;
+  flex-basis: 10px;
+}
+
+
+input
+{
   border-radius: 5px;
-  border: 1px solid grey;
-  padding: 5px;
+  border: 1px;
+  padding: 15%;
   margin-top: 5px;
+
 }
+button
+{
 
-
-
-button,
-input{
-  width: 100%
 }
