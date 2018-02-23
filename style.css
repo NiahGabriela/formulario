@@ -5,36 +5,34 @@ section
   justify-content: center;
 
 }
+
+
 form
 {
   width: 380px;
-  border: 1px solid;
   display: flex;
   flex-direction: column;
+
 }
 
 .two-colums
 {
-  display:flex;
-
+  display: flex;
 }
 
 .two-colums > *
 {
-  width: 41.5%;
-  flex-basis: 10px;
+  width: 50%;
 }
 
-
-input
-{
+input{
   border-radius: 5px;
-  border: 1px;
-  padding: 15%;
+  border: 1px solid grey;
+  padding: 5px;
   margin-top: 5px;
-
 }
+
 button
 {
-
+  width: 100%;
 }
