@@ -4,22 +4,25 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="style.css">
+    <script type="js/jquery-3.3.1.min.js">
+
+    </script>
   </head>
   <body>
     <section>
       <form class="" action="index.html" method="post">
 
       </form>
-      <form action="#" method="post">
+      <form action="#" method="post" enctype="multipart/form-data" novalidate>
         <div class="two colums">
           <input type="text" name="name" placeholder="Your name">
           <input type="text" name="lastname" placeholder="Your last name">
         </div>
         <label for="username">User Name</label>
         <input type="text" name="username" id="username"
-        placeholder="Enter a username">
+        placeholder="Enter a username" required>
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" placeholder="you@example.com">
+        <input type="email" name="email" id="email" placeholder="you@example.com" required>
         <label for="password">Password</label>
         <input type="password" name="password" id="password" placeholder="Enter a password">
         <fieldset>
@@ -58,8 +61,10 @@
 
 
 
-        <button type="submit" name="button">Sing up</button>
+        <button type="submit" name="button">Sign up</button>
       </form>
     </section>
+    <script type="js/valida.js"> </script>
+    <script type="js/actions.js"> </script>
   </body>
 </html>

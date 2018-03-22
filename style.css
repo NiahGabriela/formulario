@@ -36,3 +36,14 @@ button
 {
   width: 100%;
 }
+
+error
+{
+  border: 1px solid red;
+}
+
+.errorMessagge
+{
+  font-style: italic;
+  color: red;
+}
